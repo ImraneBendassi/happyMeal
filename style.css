@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: gray;
+    color: white;
+    text-align: center;
+}
+
+#randomRecipes{
+    padding: 20px;
+}
