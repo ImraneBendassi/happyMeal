@@ -1,0 +1,71 @@
+/* Styles CSS pour le texte */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    list-style: none; /* Pour enlever les puces et les numéros de liste */
+    padding-left: 0; /* Pour enlever le padding par défaut */
+}
+
+li {
+    margin-left: 20px;
+}
+
+#pagination {
+    margin-top: 20px;
+    text-align: center; /* Centrer les boutons de pagination */
+}
+
+#pagination button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Ajout d'une transition pour un effet de survol */
+}
+
+#pagination button:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+}
+
+.recette {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 30px); /* Définit la largeur de chaque recette */
+    margin-right: 20px; /* Marge à droite pour espacement entre les recettes */
+}
+
+@media (max-width: 768px) {
+    .recette {
+        width: 100%; /* Sur les écrans plus petits, affiche les recettes sur une seule colonne */
+        margin-right: 0; /* Aucune marge à droite sur les écrans plus petits */
+    }
+}
